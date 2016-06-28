@@ -2,3 +2,7 @@ body {
 	background-image: url(/images/IMG_6713.jpg);
 	background-size: cover;
 }
+
+#slogan {
+	font-style: italic;
+}
