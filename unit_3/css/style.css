@@ -1,7 +1,7 @@
 body {
 	background: url(/images/zion.jpg);
 	background-size: cover;
-	font: Courier New;
+	font-family: "Courier New";
 }
 
 #pith {
