@@ -1,5 +1,5 @@
 body {
-	background-image: url(/unit_3/images/zion.jpg);
+	background-image: url(/unit_3/images/oldrag.jpg);
 	background-size: cover;
 	font-family: "Courier New";
 	text-align: center;
@@ -10,8 +10,8 @@ body {
 	font-style: italic;
 }
 
-img {
-	opacity: 0;
+h1 {
+	font-weight: normal;
 }
 
 a {
