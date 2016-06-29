@@ -9,3 +9,7 @@ body {
 #pith {
 	font-style: italic;
 }
+
+img {
+	opacity: 0.8;
+}
