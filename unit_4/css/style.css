@@ -1,14 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300);
 body {
-	background-image: url(/unit_3/images/oldrag.jpg);
+	background-image: url(/unit_3/images/angelslanding.jpg);
 	background-size: cover;
 	font-family: "Courier New";
-	text-align: center;
-	color: white;
-	margin: 0px, auto;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	text-align: left;
 }
 
 #pith {
