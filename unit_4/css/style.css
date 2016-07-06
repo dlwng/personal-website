@@ -3,7 +3,7 @@ body {
 	background-image: url(/unit_3/images/oldrag.jpg);
 	background-size: cover;
 	font-family: "Courier New";
-	
+	text-align: center;
 	color: white;
 	margin: 0px, auto;
 	position: relative;
