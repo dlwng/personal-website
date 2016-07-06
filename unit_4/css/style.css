@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+
 body {
 	background-image: url(/unit_4/images/angelslanding.jpg);
 	background-size: cover;
-	font-family: "Courier New";
+	font-family: "lora";
 	text-align: left;
 }
 
