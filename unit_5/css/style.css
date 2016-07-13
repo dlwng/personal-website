@@ -6,10 +6,6 @@ body {
 	background-size: cover;
 	font-family: "lora";
 	text-align: left;
-	margin: 0 auto;
-	position: relative;
-	top 50%
-	transform: translateY(-50%);;
 }
 
 #pith {
@@ -34,6 +30,11 @@ a:visited {
 
 a:hover {
 	color: grey;
+}
+
+.site-section {
+	width: 100%;
+	min-height: 100vh;
 }
 
 
