@@ -3,12 +3,8 @@
 
 body {
 	background-image: url(/unit_4/images/oldrag.jpg);
-	background-size: cover;
+	background-size: 100%;
 	font-family: "lora";
-}
-
-#pith {
-	font-style: italic;
 }
 
 header {
@@ -22,14 +18,24 @@ header {
 	transform: translateY(-50%);
 }
 
-a {
-	text-decoration: none;
-	color: grey;
+#pith {
+	font-style: italic;
+	font-family: "lora";
 }
 
 .site-section {
 	width: 100%;
 	min-height: 100vh;
 }
+
+.pf-tags {
+	border: 2px solid black;
+}
+.email {
+	text-decoration: none;
+	color: grey;
+}
+
+
 
 
