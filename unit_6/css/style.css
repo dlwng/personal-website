@@ -19,9 +19,14 @@ header {
 	width: 100%;
 }
 
-#group {
-	transform: translateY(150%);
+#intro {
+	transform: translateY(350%);
 
+}
+
+#about {
+	transform: translateY(20%);
+	align: center;
 }
 
 .pith {
@@ -34,6 +39,11 @@ header {
 	min-height: 100vh;
 }
 
+#about-words {
+	text-align: left;
+	margin: 25em;
+}
+
 h2 {
 	text-align: center;
 	margin: 0;
@@ -43,14 +53,10 @@ ul {
 	display: inline;
 }
 
-#about {
-	text-align: left;
-}
-
 #about-photo {
 	float: left;
-	width: 50%;
-	height: 50%;
+	width: 30%;
+	height: 30%;
 }
 
 .pf-tags {
