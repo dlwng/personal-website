@@ -19,14 +19,93 @@ header {
 	width: 100%;
 }
 
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+h2 {
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+	display: inline;
+}
+
 #intro {
 	transform: translateY(350%);
 
 }
 
 #about {
-	transform: translateY(20%);
-	align: center;
+	margin: 0 auto;
+}
+
+#about-left {
+	float: left;
+	width: 30%;
+	height: 30%;
+	padding: 20px;
+}
+
+#about-right {
+	text-align: left;
+	float: right;
+	padding: 20px;
+}
+
+#wrapper {
+	transform: translateY(50%);
+	margin: auto;
+}
+
+#experience {
+	margin: 0 auto;
+}
+
+#year1 {
+	float: left;
+}
+
+#work1 {
+	float: right;
+}
+
+#year2 {
+	clear:right;
+	float: right;
+}
+
+#work2 {
+	clear: both;
+	float:left;
+}
+
+#year3 {
+	clear: both;
+	float: left;
+}
+
+#work3 {
+	clear: right;
+	float: right;
+}
+
+.pf-tags {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.email {
+	text-decoration: none;
+	color: grey;
 }
 
 .pith {
@@ -39,42 +118,13 @@ header {
 	min-height: 100vh;
 }
 
-#about-words {
-	text-align: left;
-	margin: 25em;
-}
-
-h2 {
-	text-align: center;
-	margin: 0;
-}
-
-ul {
-	display: inline;
-}
-
-#about-photo {
-	float: left;
-	width: 30%;
-	height: 30%;
-}
-
-.pf-tags {
-	border: 2px solid black;
-	text-align: center;
-}
-.email {
-	text-decoration: none;
-	color: grey;
-}
-h1 {
+.clearfix:after {
+    visibility: hidden;
     display: block;
-    font-size: 2em;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
