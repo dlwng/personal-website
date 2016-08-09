@@ -46,6 +46,7 @@ ul {
 
 #about {
 	margin: 0 auto;
+	max-width: 900px;
 }
 
 #about-left {
@@ -59,6 +60,7 @@ ul {
 	text-align: left;
 	float: right;
 	padding: 20px;
+	width: 60%;
 }
 
 #wrapper {
@@ -70,32 +72,18 @@ ul {
 	margin: 0 auto;
 }
 
-#year1 {
+#experience h3 {
+
+}
+
+.left {
 	float: left;
+	clear: left;
 }
 
-#work1 {
+.right {
 	float: right;
-}
-
-#year2 {
-	clear:right;
-	float: right;
-}
-
-#work2 {
-	clear: both;
-	float:left;
-}
-
-#year3 {
-	clear: both;
-	float: left;
-}
-
-#work3 {
 	clear: right;
-	float: right;
 }
 
 .pf-tags {

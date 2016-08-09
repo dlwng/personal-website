@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+
+body {
+	font-family: "lora";
+	color: black;
+	text-align: center;
+	font-size:16px;
+}
+
+header {
+	background-image: url(../images/swisslift.jpg);
+	background-size: cover;
+	height: 100vh;
+	font-family: "poppins";
+	font-weight: semi-bold;
+	text-align: center;
+	width: 100%;
+	color:white;
+}
+
+h1 {
+	color:white;
+    display: block;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+h2 {
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 2em;
+	text-align: center;
+	margin: 0;
+}
+
+h3 {
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+h4 {
+	font-family: "courier new";
+	font-weight: 400;
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: #63657A;
+}
+a:hover {
+	color: #EFE8D6;
+}
+
+footer {
+	background-color: #424949;
+	height: 8vh;
+}
+
+
+#intro {
+	transform: translateY(180%);
+	font-color: white;
+}
+
+#button {
+	background-color: #EFE8D6;
+	color: #63657A;
+	width: 28vh;
+	height: 5vh;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	align-content: center;
+	background-color: #AEB5BD;	
+	background-image: url(../images/mountainbg5.png);
+	min-height: 80vh;
+}
+
+#abouttext {
+	transform: translateY(115%);
+	text-align: center;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#aboutbody {
+	text-align: center;
+	padding: 20px;
+	max-width:120vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#blog {
+	background-image: url(../images/waves.jpg);
+	min-height: 68vh;
+}
+
+#blogbox {
+	background-color: white;
+	width: 50vh;
+	height: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translateY(120%);
+}
+
+#bloghead {
+	transform: translateY(160%);
+}
+
+#experience {
+	margin: 0 auto;
+	background-color: #C8CECA;
+	height: 300vh;
+}
+
+#experiencetext {
+	transform: translateY(10%);
+	width: 80vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#experiencetimeline {
+	padding: 20px;
+}
+
+#portfolio {
+	margin: 0 auto;
+	background-color: #DDDFD2;
+	height: 250vh;
+}
+
+#portfoliocontents {
+	transform: translateY(25%);
+}
+
+#tags {
+	padding: 20px;
+}
+
+#contact {
+	background-image: url(../images/swissfog.jpg);
+	background-size: cover;
+}
+
+#contacttitle {
+	transform: translateY(175%);
+}
+
+#myface {
+	float: left;
+	width: 40%;
+	height: 40%;
+	padding: 20px;
+	transform: translateY(25%);
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 900px;
+	
+}
+
+#contactboxes {
+	clear: left;
+	float: right;
+}
+
+#name {
+	background-color: white
+	height: 20vh;
+	border: 2px solid black;
+	width: 70vh;
+	opacity: 1.5;
+	margin: 2px;
+}
+
+#email {
+	background-color: white
+	height: 20vh;
+	border: 2px solid black;
+	width: 70vh;
+	opacity: 1.5;
+	margin: 2px;
+}
+
+#subject {
+	background-color: white
+	height: 20vh;
+	border: 2px solid black;
+	width: 70vh;
+	opacity: 1.5;
+	margin: 2px;
+}
+
+#message {
+	background-color: white
+	height: 50vh;
+	border: 2px solid black;
+	width: 70vh;
+	opacity: 1.5;
+	margin: 2px;
+}
+
+#footer {
+	transform: translateY(105%);
+	font-family: courier new;
+	color: white;
+}
+
+.left {
+	float: right;
+	clear: right;
+	
+}
+
+.lefttext {
+	text-align: right;
+}
+
+.right {
+	float: right;
+	clear: right;
+
+}
+
+.righttext {
+	text-align: left;
+}
+
+.pf-tags {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.email {
+	text-decoration: none;
+	color: grey;
+}
+
+.pith {
+	font-style: normal;
+	font-family: "lora";
+	font-size: 18px;
+	font-color: white;
+	padding: 10px;
+	padding-bottom: 60px;
+}
+
+.site-section {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.workicon {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.schoolicon {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.verticalline {
+	height: 150px;
+	width:1px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+
