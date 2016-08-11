@@ -8,6 +8,15 @@ body {
 	font-size:16px;
 }
 
+nav {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 9999;
+}
+
 li {
 	float: left;
 }
@@ -17,6 +26,7 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+
 
 }
 
@@ -51,7 +61,6 @@ h3 {
 	font-family: "poppins";
 	font-weight: 400;
 	font-size: 1em;
-	text-align: center;
 	padding: 10px;
 }
 
@@ -59,7 +68,6 @@ h4 {
 	font-family: "poppins";
 	font-weight: 500;
 	font-size: 1.5em;
-	text-align: center;
 	padding: 10px;
 }
 
@@ -88,19 +96,18 @@ footer {
 	height: 8vh;
 }
 
+
 #menu {
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 100%;
 	background-color: #ffffff;
-	z-index: 9999;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 #intro {
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-10%);
 	font-color: white;
 }
 
@@ -123,7 +130,9 @@ footer {
 }
 
 #abouttext {
-	transform: translateY(115%);
+	position: relative;
+	top: 150%;
+	transform: translateY(95%);
 	text-align: center;
 	line-height: 24px;
 	font-size: 16px;
@@ -158,12 +167,12 @@ footer {
 #experience {
 	margin: 0 auto;
 	background-color: #C8CECA;
-	height: 190vh;
+	height: 210vh;
 }
 
 #experiencetext {
 	transform: translateY(10%);
-	width: 80vh;
+	width: 125vh;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -212,11 +221,12 @@ footer {
 #contactboxes {
 	clear: left;
 	float: right;
+	transform: translateY(-100%);
 }
 
 #name {
 	background-color: white;
-	height: 5em;
+	height: 1.5em;
 	border: 2px solid black;
 	width: 31em;
 	opacity: 1.5;
@@ -225,7 +235,7 @@ footer {
 
 #email {
 	background-color: white;
-	height: 5em;
+	height: 1.5em;
 	border: 2px solid black;
 	width: 31em;
 	opacity: 1.5;
@@ -234,7 +244,7 @@ footer {
 
 #subject {
 	background-color: white;
-	height: 5em;
+	height: 1.5em;
 	border: 2px solid black;
 	width: 31em;
 	opacity: 1.5;
@@ -243,7 +253,7 @@ footer {
 
 #message {
 	background-color: white;
-	height: 20em;
+	height: 10em;
 	border: 2px solid black;
 	width: 31em;
 	opacity: 1.5;
@@ -257,25 +267,31 @@ footer {
 }
 
 .left {
-	float: right;
-	clear: right;
-	padding: 10px;
+	float: left;
+	clear: left;
+	position: relative;
+	padding: 0 50% 0 0;
+	width: 50%;
 	
 }
 
 .lefttext {
 	text-align: right;
+	padding: 5px 60px 40px 0px;
 }
 
 .right {
 	float: right;
 	clear: right;
-	padding: 10px;
+	position: relative;
+	padding: 0 0 0 50%;
+	width: 50%;
 
 }
 
 .righttext {
 	text-align: left;
+	padding: 5px 0 40px 60px;
 }
 
 .pf-tags {
@@ -299,17 +315,22 @@ footer {
 
 .site-section {
 	width: 100%;
-	min-height: 100vh;
 }
 
 .workicon {
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+    left: 50%;
+    top: 0;
+    display: block;
+    margin: 0 0 0 -35px
 }
 
 .schoolicon {
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+    left: 50%;
+    top: 0;
+    display: block;
+    margin: 0 0 0 -35px
 }
 
 .verticalline {
